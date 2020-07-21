@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:duration="2000"
+        >
+
+        <OnSwipe
+            motion:touchAnchorId="@+id/text"
+            motion:touchRegionId="@+id/text"
+            motion:dragDirection="dragDown"/>
+
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+        <Constraint android:id="@+id/text">
+            <Layout
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                motion:layout_constraintLeft_toLeftOf="parent"
+                motion:layout_constraintTop_toTopOf="parent"
+                motion:layout_constraintRight_toRightOf="parent"
+                />
+            <Transform
+                android:scaleX="1.0"
+                android:scaleY="1.0" />
+        </Constraint>
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+        <Constraint android:id="@+id/text">
+            <Layout
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                motion:layout_constraintLeft_toLeftOf="parent"
+                motion:layout_constraintBottom_toBottomOf="parent"
+                />
+            <CustomAttribute
+                motion:attributeName="backgroundColor"
+                motion:customColorValue="@color/colorAccent" />
+            <Transform
+                android:scaleX="3.0"
+                android:scaleY="3.0" />
+        </Constraint>
+
+
+    </ConstraintSet>
+</MotionScene>

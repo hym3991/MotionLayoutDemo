@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".motionLayout.Demo01" />
+        <activity android:name=".motionLayout.Demo02" />
+        <activity android:name=".motionLayout.Demo03" />
+        <activity android:name=".ObjectAnimation.ObjectDemo01" />
     </application>
 
 </manifest>
