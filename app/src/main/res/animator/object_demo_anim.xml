@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+
+     android:duration:动画时长
+     android:valueType:属性类型,intType、floatType、colorType、pathType
+     android:valueFrom:属性初始值
+     android:valueTo:属性结束值
+     android:repeatCount:重复次数
+     android:repeatMode:重复模式
+     android:interpolator:插值器，可看下一节默认插值器。
+     android:startOffset:延迟，对应startOffset()延迟多少毫秒执行
+
+     -->
+    <objectAnimator
+        android:duration="1000"
+        android:repeatCount="infinite"
+        android:valueType="intType"
+        android:valueFrom="0"
+        android:valueTo="360"
+        android:repeatMode="reverse"
+        android:interpolator="@android:interpolator/linear"
+        android:startOffset="100"
+        android:propertyName="rotation"
+        />
+</set>

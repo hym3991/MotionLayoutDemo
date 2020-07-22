@@ -10,7 +10,7 @@
        android:id="@+id/btn1"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:text="Demo01"
+       android:text="Demo01 - 简单实现"
        android:onClick="demo01"
        app:layout_constraintLeft_toLeftOf="parent"
        app:layout_constraintTop_toTopOf="parent"
@@ -20,7 +20,7 @@
        android:id="@+id/btn2"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:text="Demo02"
+       android:text="Demo02 - 关键帧的使用"
        android:onClick="demo02"
        app:layout_constraintTop_toBottomOf="@+id/btn1"
        app:layout_constraintLeft_toLeftOf="@+id/btn1"
@@ -30,19 +30,50 @@
        android:id="@+id/btn3"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:text="Demo02"
+       android:text="Demo03 - 属性变化效果"
        android:onClick="demo03"
        app:layout_constraintTop_toBottomOf="@+id/btn2"
        app:layout_constraintLeft_toLeftOf="@+id/btn2"
        />
 
    <Button
+       android:id="@+id/btn4"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       android:text="Object01"
+       android:text="Object - 属性动画"
        android:onClick="obj01"
        app:layout_constraintTop_toBottomOf="@+id/btn3"
        app:layout_constraintLeft_toLeftOf="@+id/btn3"
+       />
+
+   <Button
+       android:id="@+id/btn5"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Tween - 补间动画"
+       android:onClick="tween"
+       app:layout_constraintTop_toBottomOf="@+id/btn4"
+       app:layout_constraintLeft_toLeftOf="@+id/btn4"
+       />
+
+   <Button
+       android:id="@+id/btn6"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Frame - 逐帧动画"
+       android:onClick="frame"
+       app:layout_constraintTop_toBottomOf="@+id/btn5"
+       app:layout_constraintLeft_toLeftOf="@+id/btn5"
+       />
+
+   <Button
+       android:id="@+id/btn7"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Vector - 矢量动画"
+       android:onClick="vector"
+       app:layout_constraintTop_toBottomOf="@+id/btn6"
+       app:layout_constraintLeft_toLeftOf="@+id/btn6"
        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -19,7 +19,10 @@
         <activity android:name=".motionLayout.Demo01" />
         <activity android:name=".motionLayout.Demo02" />
         <activity android:name=".motionLayout.Demo03" />
-        <activity android:name=".ObjectAnimation.ObjectDemo01" />
+        <activity android:name=".animation.ObjectDemo" />
+        <activity android:name=".animation.TweenDemo" />
+        <activity android:name=".animation.FrameDemo" />
+        <activity android:name=".animation.VectorDemo" />
     </application>
 
 </manifest>

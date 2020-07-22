@@ -15,5 +15,6 @@ public class Demo02 extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_demo02);
+        getSupportActionBar().setTitle("MotionLayout");
     }
 }

@@ -1,2 +1,3 @@
+include ':module_constraintlayout'
 include ':app'
 rootProject.name = "MotionLayoutDemo"

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e3e3e3"
+    >
+
+    <ImageView
+        android:id="@+id/vector_xml_iv"
+        android:layout_width="300dp"
+        android:layout_height="160dp"
+        android:background="@drawable/animation_vector__01"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/vector_xml_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="轨迹动画"
+        android:textColor="#FFF"
+        android:background="#1ac4e2"
+        android:textSize="30dp"
+        android:padding="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/vector_xml_iv"
+        android:layout_marginTop="10dp"
+        android:onClick="vectorAnimXml"
+        />
+
+    <ImageView
+        android:id="@+id/vector_xml_iv2"
+        android:layout_width="300dp"
+        android:layout_height="160dp"
+        android:background="@drawable/animation_vector__02"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vector_xml_tv"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:id="@+id/vector_xml_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="路径动画"
+        android:textColor="#FFF"
+        android:background="#1ac4e2"
+        android:textSize="30dp"
+        android:padding="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/vector_xml_iv2"
+        android:layout_marginTop="10dp"
+        android:onClick="vectorAnimXml2"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
