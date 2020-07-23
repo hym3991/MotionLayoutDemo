@@ -14,6 +14,9 @@ import androidx.appcompat.widget.LinearLayoutCompat;
 
 import com.example.motionlayoutdemo.R;
 
+/**
+ * 属性动画
+ */
 public class ObjectDemo extends AppCompatActivity {
     LinearLayoutCompat layoutCompat;
     TextView textViewAplha;

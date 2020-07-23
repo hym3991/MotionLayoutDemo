@@ -23,6 +23,7 @@
         <activity android:name=".animation.TweenDemo" />
         <activity android:name=".animation.FrameDemo" />
         <activity android:name=".animation.VectorDemo" />
+        <activity android:name=".motionLayout.FragmentDemo01" />
     </application>
 
 </manifest>

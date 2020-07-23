@@ -17,7 +17,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.motionlayoutdemo.R;
 
-
+/**
+ * 补间动画
+ */
 public class TweenDemo extends AppCompatActivity {
     TextView textViewTween;
     TextView textViewJava;

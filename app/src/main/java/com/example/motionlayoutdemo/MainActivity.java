@@ -13,6 +13,7 @@ import com.example.motionlayoutdemo.animation.VectorDemo;
 import com.example.motionlayoutdemo.motionLayout.Demo01;
 import com.example.motionlayoutdemo.motionLayout.Demo02;
 import com.example.motionlayoutdemo.motionLayout.Demo03;
+import com.example.motionlayoutdemo.motionLayout.FragmentDemo01;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -49,5 +50,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void vector(View view) {
         startActivity(new Intent(this, VectorDemo.class));
+    }
+
+    public void fragment01(View view) {
+        startActivity(new Intent(this, FragmentDemo01.class));
     }
 }
